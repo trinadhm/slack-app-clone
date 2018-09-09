@@ -16,7 +16,7 @@ class Chat extends Component {
     this.props.dispatch({
       type: 'CREATE_CHAT_USER',
       payload: {
-        url: 'http://localhost:3001/users',
+        url: '/users',
         uname: this.props.username,
       },
     })

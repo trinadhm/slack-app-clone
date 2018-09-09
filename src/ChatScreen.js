@@ -19,7 +19,7 @@ class ChatScreen extends Component {
           payload: {
             user: this.props.currentUsername,
             instance: 'v1:us1:79f07ead-d875-417d-869e-1d13e0caf5b4',
-            tokenProviderUrl: 'http://localhost:3001/authenticate',
+            tokenProviderUrl: '/authenticate',
             roomId: this.props.id
           }
         })

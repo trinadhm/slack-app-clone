@@ -9,7 +9,7 @@ class User extends Component {
       payload: {
         uid: this.props.currentUsername,
         instance: 'v1:us1:79f07ead-d875-417d-869e-1d13e0caf5b4',
-        tokenProviderURL: 'http://localhost:3001/authenticate'
+        tokenProviderURL: '/authenticate'
       }
     });
   }
