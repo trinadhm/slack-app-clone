@@ -18,13 +18,13 @@ class ChatRoom extends Component {
   }
 
   sendTypingEvent() {
-    this.state.currentUser
+    this.props.currentUser
       .isTypingIn({ roomId: this.state.currentRoom.id })
       .catch(error => console.error('error', error))
   }
 
   sendMessage(text) {
-    this.state.currentUser.sendMessage({
+    this.props.currentUser.sendMessage({
       text,
       roomId: this.state.currentRoom.id,
     })
