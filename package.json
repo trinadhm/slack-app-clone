@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "react-scripts": "0.9.5",
     "@material-ui/core": "^3.0.2",
     "@material-ui/icons": "^3.0.1",
     "@pusher/chatkit": "^0.7.11",
