@@ -1,5 +1,7 @@
 # Slack Clone App
 
+[![CircleCI](https://circleci.com/gh/trinadhm/slack-app-clone.svg?style=svg)](https://circleci.com/gh/trinadhm/slack-app-clone)
+
 A sample chat application using, React, Redux, Saga, Pusher Chatkit, OAuth0
 
 ##### OAuth0 code from example of Using OAuth0 with React
