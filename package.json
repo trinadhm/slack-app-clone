@@ -9,8 +9,8 @@
   "dependencies": {
     "@material-ui/core": "^3.0.2",
     "@material-ui/icons": "^3.0.1",
-    "@pusher/chatkit": "^0.7.11",
-    "@pusher/chatkit-server": "^0.12.1",
+    "@pusher/chatkit-client": "^1.4.1",
+    "@pusher/chatkit-server": "^1.1.0",
     "auth0-js": "^9.0.0",
     "axios": "^0.18.0",
     "bootstrap": "^3.3.7",
