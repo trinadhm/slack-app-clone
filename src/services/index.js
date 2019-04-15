@@ -1,4 +1,4 @@
-import Chatkit from '@pusher/chatkit';
+import Chatkit from '@pusher/chatkit-client';
 
 const createChatManager = ({uid, instance, tokenProviderURL}) => {
   return new Chatkit.ChatManager({
